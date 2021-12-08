@@ -1,19 +1,21 @@
-@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 
 body {
 	padding: 10px;
-	font-family: 'Share Tech Mono', monospace;
-	background-color: white;
+	font-family: 'Abel', sans-serif;
+	background-color: #BED0F4;
 }
 
 #Main {
-	background: #dfdfdf;
-	color: #575555;
+	background: #F7E4E0;
+	color: #495F75;
+	margin:auto;
+	margin-top:8em;
 	border: 1px solid #000;
 	box-shadow: 3px 3px 10px black;
 	width: 30em;
-	height: 45em;
+	height: 38em;
 }
 
 #Screen {
@@ -38,27 +40,34 @@ body {
 button {
 	font-size: 20px;
 	display: inline-block;
+	margin-top:10px;
 	width: 70px;
 	height: 50px;
 }
 
 #Keypad {
-	justify-content: center;
-	/*margin-top: 50px;*/
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom: 10px;
+	margin-top: 10px;
 	width: 100%;
 	height: 45%;
 }
 
 	#Keypad button {
+		margin:auto;
 		flex-basis: 33%;
 		align-self: center;
 	}
 
 #clear {
-	margin: 10px 40px;
-	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:81%;
+	display:block;
+	
 }
 
 #math {
